@@ -1,0 +1,4 @@
+Ogólnie ujmmując zaproponowane rozwiązanie jest akceptowalne. Niemniej, projekt znajduje się na bardzo wstępnym etapie realizacji (brak wyników).
+
+Z generalnych uwag sugeruje inaczej zaadresować wstępne wyszukiwanie nerki - proszę zauważyć, że wejśćiowe obrazy są 3-D i nerka ma różną wielkość w różnych przekrojach.
+Dodatkowo, takie operacje mogą utrudnić ocenę wyników (wyjściowa maska binarna musi zostać odpowiednio przekształcona "wstecz").
