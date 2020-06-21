@@ -1,5 +1,8 @@
-def get_binary_image(img, threshold, tryb ='upper'):
-    if tryb == 'upper':
+def get_binary_image(img, threshold, mode ='upper'):
+    """
+    This function creates an binary image using thresholding.
+    """
+    if mode == 'upper':
         return img > threshold
-    elif tryb == 'lower':
+    elif mode == 'lower':
         return img < threshold
