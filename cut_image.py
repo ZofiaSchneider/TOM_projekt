@@ -1,5 +1,16 @@
 def cut_image(image):
-    lf=0  #sprawdzają, czy znaleziono już brzeg
+    """
+    This function crops the image by cutting the background.
+    
+    Arguments:
+    image - image to crop
+    
+    Returns:
+    cut - a cropped image
+    [left,right,up,down] - array containing number of rows or columns that were
+    cut from each side
+    """
+    lf=0  
     rf=0
     uf=0
     df=0
@@ -26,4 +37,4 @@ def cut_image(image):
                 break
     cut = image[left:right,up:down]
     print(left,right,up,down)
-    return cut
+    return cut, [left,right,up,down]
